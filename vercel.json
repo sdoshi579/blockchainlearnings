@@ -1,0 +1,8 @@
+{
+    "env": {
+    "HUGO_VERSION": "0.147.0"
+  },
+    "buildCommand": "npm run build",
+    "outputDirectory": "public",
+    "framework": null
+  }

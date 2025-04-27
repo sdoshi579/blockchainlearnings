@@ -1,0 +1,74 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero Section
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/backgrounds"
+    filename:
+      desktop: "blog-hero-desktop.webp"
+      mobile: "blog-hero-mobile.webp"
+
+  title: "Sanket's Blog"
+  subtitle: "Thoughts, Learnings, and Experiments — Welcome to my personal space on the internet."
+
+  image:
+    path: "images/avatars"
+    filename: "sanket-avatar.png"
+    alt: "Sanket's Avatar"
+    boxShadow: true
+    rounded: true
+
+  ctaButton:
+    icon: person
+    btnText: "Read Full Profile"
+    url: "/docs/profile/"
+  cta2Button:
+    icon: edit
+    btnText: "Explore Posts"
+    url: "/docs/"
+  # cta2Button:
+  #   icon: rss_feed
+  #   btnText: "Subscribe"
+  #   url: "/rss.xml"
+
+  info: "Updated regularly with articles on tech, blockchain, backend engineering, and more."
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: What You'll Find Here
+  subtitle: A collection of articles, tutorials, and personal notes.
+
+  items:
+    - title: Blockchain Learnings
+      icon: account_balance_wallet
+      description: Sharing deep dives, experiments, and projects around blockchain technologies.
+
+    - title: Backend Engineering
+      icon: data_object
+      description: Tips, architectures, and challenges from real-world backend systems (Golang, TypeScript, more).
+
+    - title: Personal Projects
+      icon: build
+      description: Cool side-projects, experiments, and failures worth documenting.
+
+    - title: Career Growth
+      icon: trending_up
+      description: Notes on engineering leadership, scaling up skills, and navigating tech careers.
+
+    - title: Life & Productivity
+      icon: self_improvement
+      description: Tools, methods, and mental models for staying productive and balanced.
+
+# Image Compare (optional for now, disable it)
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare
